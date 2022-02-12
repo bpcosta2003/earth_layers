@@ -21,7 +21,7 @@
 
 ##
 
-[See the project here](https://earth-layers-app.vercel.app/)
+[See the project here](https://earth-layers-app-bybrunocosta.vercel.app/)
 
 ![image](https://user-images.githubusercontent.com/69023428/153729201-f6381e79-e57c-4b21-8382-c4d1b1890cae.png)
 
