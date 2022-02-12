@@ -1,3 +1,32 @@
+<h1>Earth Layers APP </h1>
+
+
+## Technologies 💻
+
+<div style="display: inline_block"><br>
+ <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+ <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+ <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+ <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</div>
+</br>
+
+### About 👨🏽‍🏫
+
+<h3>It's a WEBSITE to teach you about the earth layers.</h3>
+
+### Functionalities ⚙️
+
+- Animations FADE and ZOOM ✔️
+
+##
+
+[See the project here](https://earth-layers-app.vercel.app/)
+
+![image](https://user-images.githubusercontent.com/69023428/153729201-f6381e79-e57c-4b21-8382-c4d1b1890cae.png)
+
+![image](https://user-images.githubusercontent.com/69023428/153729009-1364086c-a52f-4b63-b43d-9f0d4331a5fe.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
