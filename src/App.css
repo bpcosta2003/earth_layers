@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
   color: white;
+  background-image: url("images/background.png");
+  background-position: center center;
+  margin: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+#pagina1 h1 {
+  background-color: #0000005e;
+  backdrop-filter: blur(2rem);
+  margin-top: 4rem;
+  padding: 2rem;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 5px 5px 100px rgb(0, 0, 0, 0.5);
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#pagina1 img {
+  min-width: 10rem;
+  max-width: 35rem;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 4rem;
+  width: 100%;
+  transition: all 0.2s;
+}
+
+.back {
+  width: 50%;
+  border-radius: 50px;
+  margin-top: 2rem;
+}
+
+.texto {
+  margin-top: 2rem;
+  background-color: #000000;
+  padding: 2rem;
+  text-align: left;
+  color: #ffffff;
+  box-shadow: 5px 5px 100px rgb(0, 0, 0, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(2rem);
+}
+
+.clickHere {
+  position: relative;
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  animation: pulsate-fwd 1.5s ease-in-out infinite both;
+}
+
+@keyframes pulsate-fwd {
+  0% {
+    transform: scale(1);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 500px) {
+  .botoes {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    margin-top: 2rem;
+  }
+  #pagina1 h1 {
+    font-size: 1em;
+  }
+  #pagina1 {
+    margin-top: 8rem;
+  }
+  .texto {
+    font-size: 1em;
+  }
+  .clickHere {
+    width: 70%;
+  }
+  .clickHere h2 {
+    font-size: 1em;
   }
 }
